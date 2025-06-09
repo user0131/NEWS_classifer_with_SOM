@@ -44,7 +44,7 @@ pip install transformers torch pandas fugashi protobuf ipadic unidic-lite matplo
 R -e "install.packages(c('kohonen', 'readr', 'dplyr'))"
 ```
 
-## 🎯 操作方法
+## 操作方法
 
 ### ステップ1: データを準備する（ない場合は、sample_data.csvを用意しています！）
 CSVファイルを以下の形式で準備してください：
@@ -67,7 +67,7 @@ chmod +x run_analysis.sh
 ### ステップ3: 結果を確認する
 `image/` フォルダ内に各カテゴリのグリッド可視化画像が生成されます！
 
-## 📊 結果
+## 結果
 
 ### 例1: 「逮捕」カテゴリの分析結果
 
@@ -105,7 +105,7 @@ chmod +x run_analysis.sh
 - **色の濃度**: 件数が多いほど濃い青色、最大値は赤色で強調
 - **統計情報**: 画像上部にカテゴリ名、合計件数、最大件数を表示
 
-## 🎨 カスタマイズ
+## カスタマイズ
 
 ### SOMのサイズを変更したい場合
 `SOM解析.R` の以下の部分を修正：
